@@ -11,12 +11,16 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@reach/dialog": "^0.6.2",
+    "@reach/tabs": "^0.6.2",
+    "@reach/visually-hidden": "^0.6.2",
     "@types/react": "^16.9.14",
     "@types/react-dom": "^16.9.4",
     "parcel": "^1.12.4",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-netlify-identity": "^0.1.9",
+    "react-netlify-identity-widget": "^0.2.5",
     "typescript": "^3.7.3"
   }
 }
