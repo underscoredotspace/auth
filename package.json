@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "parcel start app/client/index.html",
-    "build": "parcel build app/client/index.html --public-url ./"
+    "build": "parcel build app/client/index.html --public-url ./",
+    "serve": "netlify-lambda serve app/serverless"
   },
   "keywords": [],
   "author": "",
@@ -16,6 +17,7 @@
     "@reach/visually-hidden": "^0.6.2",
     "@types/react": "^16.9.14",
     "@types/react-dom": "^16.9.4",
+    "netlify-lambda": "^1.6.3",
     "parcel": "^1.12.4",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
