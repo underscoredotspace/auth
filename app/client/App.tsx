@@ -1,16 +1,9 @@
 import React from "react"
-import { IdentityContextProvider } from "react-netlify-identity"
 
 import Login from "./Login"
 
-interface AppProps {
-    authUrl: string
-}
+interface AppProps {}
 
-const App: React.FC<AppProps> = ({ authUrl }) => (
-    <IdentityContextProvider url={authUrl}>
-        <Login />
-    </IdentityContextProvider>
-)
+const App: React.FC<AppProps> = () => <Login />
 
 export default App
